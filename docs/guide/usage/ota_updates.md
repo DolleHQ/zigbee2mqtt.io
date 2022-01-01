@@ -64,5 +64,6 @@ advanced:
 ```
 
 ## Troubleshooting
-- `Device didn't respond to OTA request` or `Update failed with reason: 'aborted by device'`: try restarting the device by disconnecting the power/battery for a few seconds and try again.
+- `Device didn't respond to OTA request` or `Update failed with reason: 'aborted by device'`: try restarting the device by disconnecting the power/battery for a few seconds and try again. 
 - For battery powered devices make sure that the battery is 70%+ as OTA updating is very power consuming.
+-  `Device didn't respond to OTA request`: The remotes sleep very fast to save power after the button is pushed. Press the button just before hitting the update OTA button, and after that, once every couple of seconds for about 5 seconds.
